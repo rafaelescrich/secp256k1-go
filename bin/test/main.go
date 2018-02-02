@@ -2,7 +2,7 @@ package main
 
 import (
 	"crypto/rand"
-	"github.com/btccom/secp256k1-go/secp256k1"
+	"github.com/rafaelescrich/secp256k1-go/secp256k1"
 	"io"
 	"log"
 )

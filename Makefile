@@ -24,12 +24,12 @@ test-cleanup-profile:
 
 test-secp256k1: test-cleanup
 	go test -coverprofile=coverage/secp256k1.out -v \
-	github.com/btccom/secp256k1-go/secp256k1... \
+	github.com/rafaelescrich/secp256k1-go/secp256k1... \
 	$(TESTARGS)
 
 test-race-secp256k1:
 	go test -race -v \
-	github.com/btccom/secp256k1-go/secp256k1... \
+	github.com/rafaelescrich/secp256k1-go/secp256k1... \
 	$(TESTARGS)
 
 sanity: build-test test
