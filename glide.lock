@@ -1,5 +1,5 @@
-hash: 25b83c2f505bb9703ae8404893ee232b16b4cd673c4964a96c28be623df5a734
-updated: 2017-05-03T11:01:53.259321951+02:00
+hash: 6bbba4c39bf8101cc6b0c7a38094b765fa5f46635f418b38c8e0405465cac288
+updated: 2018-02-02T11:41:59.79787248-02:00
 imports:
 - name: github.com/pkg/errors
   version: 645ef00459ed84a119197bfb8d8205042c6df63d
@@ -15,6 +15,6 @@ testImports:
   subpackages:
   - difflib
 - name: github.com/stretchr/testify
-  version: 69483b4bd14f5845b5a1e55bca19e954e827f1d0
+  version: 12b6f73e6084dad08a7c6e575284b177ecafbc71
   subpackages:
   - assert

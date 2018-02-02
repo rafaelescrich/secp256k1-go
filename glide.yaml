@@ -1,4 +1,4 @@
-package: github.com/btccom/secp256k1-go
+package: github.com/rafaelescrich/secp256k1-go
 import:
 - package: github.com/pkg/errors
   version: ^0.8.0
